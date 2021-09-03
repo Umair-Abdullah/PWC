@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Active yes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card-header">
+            <div class="col-sm-7">
+
+                <h3>Active Meter Present</h3>
+            </div>
+
+        </div>
+        <div class="card-body">
+            <form>
+              
+
+        <!-- Electricity use Through Meter -->
+
+        <div class="row g-3 card-header">
+            <div class="col-sm-7">
+                <h3>Electricity use Through Meter</h3>
+       
+            </div>
+            <div class="col-sm-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="electricity" value="yes" >
+                    <label class="form-check-label" for="flexRadioDefault1">
+                     Yes
+                    </label>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="electricity" value="no" >
+                    <label class="form-check-label" for="flexRadioDefault1">
+                     No
+                    </label>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+        
+
+        <!-- Meter Found Disconnected -->
+                <div class="row g-3 card-header">
+                    <div class="col-sm-7">
+                        <h3>Meter Found Disconnected</h3>
+                        
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="disconn" value="yes">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                             Yes
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="disconn" value="no">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                             No
+                            </label>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+
+                
+
+            </form>
+            <button  onclick="caseApp();" class="btn float-right login_btn" >Next</button>
+
+        </div>
+
+</body>
+</html>
